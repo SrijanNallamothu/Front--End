@@ -1,0 +1,304 @@
+  @import url(https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap  );
+  /* body{
+    font-family: 'Google Sans', sans-serif;
+  } */
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .appointment-history .appHis-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+  }
+
+
+  .appointment-history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  .doctor-list li{
+
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-list {
+    display: flex;
+    flex-wrap: wrap; /* allow the list items to wrap onto multiple lines */
+    justify-content: space-between; /* evenly distribute the list items horizontally */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%; /* set the width of the list to 100% */
+  }
+
+  .doctor-profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .doctor-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .doctor-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctor-name {
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-bottom: 2px; */
+    color: #444;
+  }
+  .doctor-spec{
+    color: #686767;
+    margin-bottom: 15px;
+  }
+  .info-label {
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  .info-value {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #000;
+    width: fit-content;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    nav h1 {
+      font-size: 24px;
+    }
+    
+    nav a {
+      font-size: 18px;
+    }
+    
+    .doctor-profile {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .doctor-photo {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .doctor-info {
+      margin-top: 20px;
+    }
+    
+    .info-label {
+      margin-bottom: 10px;
+    }
+    
+    .info-value {
+      margin-bottom: 0;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+/* .navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  /* Doctor Profile */
+
+  /* .doctor-profile {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .doctor-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .doctor-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctor-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .info-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    flex-direction: column;
+  }
+  
+  .info-value {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+    flex-direction: column;
+  } */
+  
+  /* .doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .doctor-profile {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .doctor-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .doctor-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .info-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .info-value {
+    font-size: 18px;
+    color: #777;
+  }
+   */

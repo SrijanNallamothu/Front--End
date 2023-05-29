@@ -1,0 +1,168 @@
+/* Navigation bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Google Sans', sans-serif;
+  }
+  
+  .navbar button {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: color 0.3s ease-in-out;
+    float: left;
+  }
+  
+  .navbar a:hover {
+    color: #e6e9ee;
+  }
+  
+  .nav-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    transition-duration: 0.9s;
+    /* transition: background-color 0.3s ease-in-out; */
+  }
+  .nav-button:hover {
+    background-color: #ececef;
+    color: #2c3e50;
+  }
+  
+  
+  /* Button styles */
+  /* .button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 650px;
+    background-color: #3a90f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #1234f3;
+  } */
+
+  
+  
+  /* Heading styles */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* List styles */
+  .list {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .list li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Centered button */
+.centered-button {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  /* margin-top: 50px; */
+}
+
+.by {
+  border-radius: 100%;
+}
+
+/* Button styles */
+.consultation-button {
+  background-color: #249d1c;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 0%;
+  font-family: 'Google Sans', sans-serif;
+  transition: background-color 0.3s ease-in-out;
+  border-color: black;
+}
+
+.consultation-button:hover {
+  background-color: #3b4bd6;
+}
+
+/* Stop consultation styles */
+.stop-consultation {
+  background-color: rgb(175, 45, 45);
+  /* background-color: #c0392b; */
+}
+.doctor-profile{
+  position: relative;
+}
+.followup-apphis-close-btn{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: rgb(222, 71, 71);
+}
+
+.followup-apphis-btn{
+  font-family: 'Google Sans', sans-serif;
+  background-color:#3174d8;
+  transition: 0.2s ease-in-out;
+}
+
+.followup-apphis-btn:hover{
+  background-color:#085fe2;
+  transition: 0.2s ease-in-out;
+}
+
+.foll-pat-details-popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foll-pat-details-popup-content{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.foll-pat-details-close-popup-btn{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: rgb(222, 71, 71);
+}

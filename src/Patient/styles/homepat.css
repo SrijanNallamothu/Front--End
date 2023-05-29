@@ -1,0 +1,113 @@
+/* Styles for the buttons */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+  @import url(https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap  );
+  body{
+    font-family: 'Google Sans', sans-serif;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Styles for the buttons */
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #068641;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .button:first-child {
+    margin-left: 0;
+  }
+  
+  .button:last-child {
+    margin-right: 0;
+  }
+
+/* .button-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10%;
+    align-items: center;
+  }
+  
+  .button {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #016b61;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #789f9a;
+  } */
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    color: #333;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #0a9c5f;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }

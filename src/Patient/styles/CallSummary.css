@@ -1,0 +1,43 @@
+.appointment-summary-page {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 25vh auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.appointment-summary-page h1{
+    margin-bottom: 10px;
+}
+
+.app-sumary-btn{
+    font-family: 'Google Sans', sans-serif;
+    background-color:#3174d8;
+    transition: 0.3s ease-in-out;
+  }
+  
+.app-sumary-btn:hover{
+    background-color:#0154d1;
+    transition: 0.3s ease-in-out;
+}
+  
+.appointment-summary-page .details {
+    border-top: 1px solid rgb(172, 171, 171);
+    display: flex;
+}
+  
+.appointment-summary-page .details .doctor-photo{
+    float: left;
+}
+
+.appointment-summary-page .appHis-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    height: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+}
